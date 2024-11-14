@@ -9,9 +9,11 @@ public class Reto3 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		LocalDate fecha1=funciones.dimeFecha("introduce fecha 1",sc );
-		LocalDate fecha2=funciones.dimeFecha("introduce fecha 2",sc );
+		LocalDate fecha1=funciones.dimeFecha("introduce fecha (dd/MM/yyyy)",sc );
+		LocalDate fecha2=funciones.dimeFecha("introduce fecha (dd/MM/yyyy)",sc );
 		
+		int dias=Funciones2.dias(fecha1, fecha2);
+		int nombres = 
 
 	}
 
