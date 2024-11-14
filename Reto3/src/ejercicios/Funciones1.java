@@ -14,13 +14,6 @@ public class Funciones1 {
 		}
 	}
 	
-	/*public static boolean diferenteFecha(LocalDate fecha1, LocalDate fecha2) {
-		if((fecha1.getDayOfMonth()!=fecha2.getDayOfMonth())||(fecha1.getMonthValue()!=fecha2.getMonthValue())) {
-			return true;
-			} else
-				return false;
-		}*/
-	
 	public static void nombres(LocalDate fecha1,LocalDate fecha2,Scanner sc) {
 		long meses = Math.abs(ChronoUnit.MONTHS.between(fecha1,fecha2));
 		String nombre = "";
