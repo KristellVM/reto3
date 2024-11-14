@@ -12,6 +12,7 @@ public class Funciones1 {
 		} else {
 			return true;
 		}
+		
 	}
 	
 	public static void nombres(LocalDate fecha1,LocalDate fecha2,Scanner sc) {
