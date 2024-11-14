@@ -20,16 +20,41 @@ public static void dias(LocalDate fecha1, LocalDate fecha2) {
      media=diasmes/meses;
      System.out.println("los dias = "+ diasmes +" la media = "+ media);
      Month mes1=fecha1.getMonth(); 
-     switch (key) {
-	case value:
-		
-		break;
+     switch (mes1) {
+     case "a":
 
-	default:
-		break;
+			System.out.print(c+" - ");
+
+			break;
+
+		case 'e':
+
+			System.out.print(c+" - ");
+
+			break;
+
+		case 'i':
+
+			System.out.print(c+" - ");
+
+			break;
+
+		case 'o':
+
+			System.out.print(c+" - ");
+
+			break;
+
+		case 'u':
+
+			System.out.print(c+" - ");
+
+			break;
+
+		default:
 	}
      
-     
+     //"a"+"u"+"e"+"i"+"o"
     
 
 	
